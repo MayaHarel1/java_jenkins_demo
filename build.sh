@@ -6,7 +6,7 @@ NAME=${1:-World}
 ENVIRONMENT=${2:-DEV}
 
 # Compile Java code
-javac src/HelloWorld.java
+javac HelloWorld.java
 
 # Run Java app
 java -cp src HelloWorld "$NAME" "$ENVIRONMENT"
